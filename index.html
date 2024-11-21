@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+    <body>
+        <header>
+            <div class="flex w-full h-full navbar container">
+                <div class="w-half h-full">
+                    <ul
+                        class="menu-first-part w-full flex justify-between h-full items-center text-grey1"
+                    >
+                        <li>
+                            <img
+                                class="h-full"
+                                width="200px"
+                                src="./assets/images/logo.png"
+                                alt=""
+                            />
+                        </li>
+                        <li>Resources</li>
+                        <li>Wiki</li>
+                        <li>Members</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+                <div class="w-half h-full flex justify-end items-center gap-2">
+                    <button class="sign-up">Sign Up</button>
+                    <button class="sign-in">Sign In</button>
+                </div>
+            </div>
+        </header>
+        <div class="categories w-full container">
+            <ul
+                style="list-style: none"
+                class="w-full h-full flex justify-start gap-4 text-grey1"
+            >
+                <li>Plugins</li>
+                <li>Resourcepacks</li>
+                <li>Maps</li>
+                <li>Setups</li>
+            </ul>
+        </div>
+        <section class="main-section w-full">
+            <div
+                class="container flex flex-col justify-center items-start h-full"
+            >
+                <h1 class="head-title mb-4">
+                    Quality resources <br />
+                    for the best server
+                </h1>
+                <p class="head-content mb-4">
+                    We provide quick assistance with resources, help with setup
+                    <br />
+                    and will be glad to see any wishes and ideas that can be
+                    brought to life!
+                </p>
+                <div class="w-half search-container p2 mb-4">
+                    <div
+                        class="search-item w-full h-full flex justify-between items-center"
+                    >
+                        <div class="icon flex justify-center items-center">
+                            <img src="./assets/images/search.png" alt="" />
+                        </div>
+                        <input
+                            type="text"
+                            placeholder="Find plugins, resourcepacks, maps and setups"
+                        />
+                        <button>Search</button>
+                    </div>
+                </div>
+                <div class="w-full flex justify-start items-center gap-3">
+                    <div class="sub-cateries">plugins</div>
+                    <div class="sub-cateries">resourcepacks</div>
+                    <div class="sub-cateries">maps</div>
+                    <div class="sub-cateries">setups</div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
